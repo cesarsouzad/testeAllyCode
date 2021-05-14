@@ -1,0 +1,82 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    top: 0;
+    font-family: "DIN Pro Medium";
+    max-width: 1920px;
+}
+@import url(//db.onlinewebfonts.com/c/5fd82f3bb8dcfc3ce611fab541b92241?family=DIN+Pro+Medium);
+header{
+    background-color: #b2bec3;
+    top: 0px;
+    margin: 0;
+    border-bottom: 1px solid #aaaaaa;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+h1 {
+    color: #82008f;
+    font-size: initial;
+    margin: auto;
+}
+img.logo {
+    width: 92px;
+}
+img.diss-logo {
+    width: 207px;
+    height: 64px;
+}
+.headerdv1 {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.headerdv2 {
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+}
+.sino{
+    padding: 0px 5px;
+}
+.top1{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-right: 2px solid #82008f;
+    margin: 10px 13px 10px 0px;
+    height: 63px;
+    padding-right: 14px;
+}
+a{
+    text-decoration: none;
+
+}
+.numNotify {
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+.not-ball{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+.nam-arrow{
+    align-items: center;
+    display: flex;
+}
+footer{
+    background-color: #5A1B5A;
+    height: 100px;
+    display: flex;
+    bottom: 0;
+    border-top: 1px solid #707070;
+}
