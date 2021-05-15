@@ -8,13 +8,12 @@ html, body{
 }
 @import url(//db.onlinewebfonts.com/c/5fd82f3bb8dcfc3ce611fab541b92241?family=DIN+Pro+Medium);
 header{
-    background-color: #b2bec3;
+    background-color: #ffffff;
     top: 0px;
     margin: 0;
     border-bottom: 1px solid #aaaaaa;
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px 0px 100px;
 }
 h1 {
     color: #82008f;
@@ -32,16 +31,21 @@ img.diss-logo {
     flex-direction: row;
     display: flex;
     align-items: center;
+    margin: auto;
 }
 .headerdv2 {
-    display: flex;
+    display: inline-flex;
+    align-items: flex-end;
+    margin: auto;
+    margin-bottom: 10px;
 }
 nav{
     display: flex;
     align-items: flex-end;
 }
 .sino{
-    padding: 0px 5px;
+    padding: 0px 5px 0px 25px;
+    font-size: 20px;
 }
 .top1{
     flex-direction: column;
@@ -57,7 +61,7 @@ a{
 
 }
 .numNotify {
-    background-color: red;
+    background-color: #E21683;
     color: #fff;
     border-radius: 50%;
     width: 25px;
