@@ -1,16 +1,27 @@
-*{
+/* tirar margem da pagina */
+
+* {
     margin: 0;
     padding: 0;
 }
-html, body{
+
+
+/* height total para posicionamento do header e o footer  */
+
+html,
+body {
     height: 100%;
     top: 0;
     font-family: "DIN Pro Medium";
     max-width: 1920px;
     color: #4A4A4A;
 }
+
 @import url(//db.onlinewebfonts.com/c/5fd82f3bb8dcfc3ce611fab541b92241?family=DIN+Pro+Medium);
-header{
+
+/* cabeçalho da pagina */
+
+header {
     background-color: #ffffff;
     top: 0px;
     margin: 0;
@@ -19,18 +30,22 @@ header{
     justify-content: space-between;
     height: 125px;
 }
+
 h1 {
     color: #82008f;
     font-size: initial;
     margin: auto;
 }
+
 img.logo {
     width: 92px;
 }
+
 img.diss-logo {
     width: 207px;
     height: 64px;
 }
+
 .headerdv1 {
     flex-direction: row;
     display: flex;
@@ -38,6 +53,7 @@ img.diss-logo {
     margin: auto;
     margin-bottom: 15px;
 }
+
 .headerdv2 {
     flex-direction: row;
     display: flex;
@@ -45,29 +61,38 @@ img.diss-logo {
     margin: auto;
     margin-bottom: 30px;
 }
-nav{
+
+
+/* navegação dos elementos menu sino notify  */
+
+nav {
     display: flex;
     align-items: center;
 }
+
 #menu {
     display: none;
     margin: 0;
     font-size: 35px;
 }
-.sino{
+
+.sino {
     padding: 0px 5px 0px 5px;
     font-size: 20px;
 }
+
 span.titulo-chamada {
     text-transform: uppercase;
     opacity: 0.82;
 }
+
 .titulo-chamada2 {
     text-transform: uppercase;
     padding: 5px 0px;
     opacity: 0.82;
 }
-.top1{
+
+.top1 {
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -76,9 +101,11 @@ span.titulo-chamada {
     height: 63px;
     padding-right: 14px;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .card-destaque {
     background-color: #82008F;
     border: 1px solid #707070;
@@ -88,55 +115,67 @@ a{
     align-items: center;
     justify-content: center;
 }
+
 .card-destaque div {
     display: inline-flex;
     flex-direction: column;
     COLOR: #FFF;
     line-height: 1;
 }
+
 .info1 {
     text-align: center;
     width: min-content;
 }
-.info1 .s1{
+
+.info1 .s1 {
     font-size: 35px;
 }
-.info1 .s2{
+
+.info1 .s2 {
     font-size: 100px;
-    color:#ffa600;
+    color: #ffa600;
 }
-.info1 .s3{
+
+.info1 .s3 {
     font-size: 25px;
 }
-.info2 img{
-    width:60px;
+
+.info2 img {
+    width: 60px;
 }
-.info2 div{   
+
+.info2 div {
     margin: 0;
     display: flex;
     flex-direction: row;
     width: 100px;
 }
+
 .info2 {
     width: min-content;
     margin: auto;
 }
+
 span.i2-titulo {
     font-size: 32px;
     text-transform: uppercase;
     line-height: 1;
     margin: 9px 0px;
 }
-.i2-semi-titulo{
+
+.i2-semi-titulo {
     font-size: 14px;
     opacity: 0.87;
 }
+
 .link {
     align-self: flex-end;
     padding-bottom: 28px;
     width: max-content;
     padding-right: 2%;
 }
+
 a.reuni {
     background: #1FC2DF;
     color: #fff;
@@ -144,7 +183,8 @@ a.reuni {
     text-align: center;
     padding: 8px;
 }
-.mais{
+
+.mais {
     color: #ffa600;
     margin: 0px;
     display: flex;
@@ -155,7 +195,6 @@ a.reuni {
     bottom: -4px;
 }
 
-
 .numNotify {
     background-color: #E21683;
     color: #fff;
@@ -164,19 +203,23 @@ a.reuni {
     height: 25px;
     display: flex;
 }
-.not-ball{
+
+.not-ball {
     text-decoration: none;
     text-align: center;
     margin: auto;
 }
-.nam-arrow{
+
+.nam-arrow {
     align-items: center;
     display: flex;
     color: #4b4a4a;
 }
+
 .conteudo {
     background: #f1f1f1;
 }
+
 .cont-enc-antigos {
     display: flex;
     height: min-content;
@@ -184,6 +227,7 @@ a.reuni {
     justify-content: space-around;
     margin: 20px 0px;
 }
+
 .enc-data {
     display: flex;
     flex-direction: column;
@@ -191,24 +235,30 @@ a.reuni {
     align-items: center;
     line-height: 1;
 }
+
 span.mes {
     font-size: 14px;
 }
+
 span.dia {
     font-size: 50px;
 }
+
 span.hora {
     font-size: 14px;
 }
+
 .enc-quem {
     display: flex;
     flex-direction: column;
     font-size: 14px;
     width: min-content;
 }
+
 span.nomeT {
     font-size: 14px;
 }
+
 span.nomeD {
     font-size: 18px;
     text-transform: uppercase;
@@ -220,14 +270,18 @@ span.nomeD {
     margin: 0;
     align-self: flex-end;
 }
-#setadireita{
+
+#setadireita {
     transform: rotate(270deg);
     color: #E21683;
 }
-.setadireita{
+
+.setadireita {
     visibility: hidden;
 }
 
+
+/* rodape da pagina */
 
 footer {
     background-color: #5A1B5A;
@@ -237,6 +291,7 @@ footer {
     border-top: 1px solid #707070;
     align-items: flex-end;
 }
+
 footer div {
     width: 72%;
     margin: auto;
@@ -247,40 +302,54 @@ footer div {
     margin-bottom: 40px;
     text-transform: uppercase;
 }
+
 .parte1 {
     width: 72%;
     margin: auto;
     display: flex;
 }
+
 .p1-bloco1 {
     width: 65%;
     margin-top: 50px;
     margin-right: 2%;
 }
+
 .p1-bloco2 {
     width: 35%;
     margin-top: 73px;
 }
+
+
 /*scroll div*/
-.scroll-encontros{
+
+.scroll-encontros {
     height: 204px;
     overflow-y: scroll;
 }
+
 .scroll-encontros::-webkit-scrollbar {
     width: 2px;
-  }
+}
+
 .scroll-encontros::-webkit-scrollbar-track {
-    background: #E8E8E8;        /* color of the tracking area */
-  }
+    background: #E8E8E8;
+    /* color of the tracking area */
+}
+
 .scroll-encontros::-webkit-scrollbar-thumb {
-    background-color: #82008F;    
-  }
+    background-color: #82008F;
+}
+
+
 /*---------*/
-.div-pergunta{
-    text-transform: uppercase; 
-    width: 252px; 
+
+.div-pergunta {
+    text-transform: uppercase;
+    width: 252px;
     display: flex;
 }
+
 .busca {
     display: flex;
     margin: auto;
@@ -288,9 +357,9 @@ footer div {
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
-    
 }
-input{
+
+input {
     width: 100%;
     height: 32px;
 }
@@ -299,11 +368,13 @@ i.material-icons {
     color: #6B6B6B;
     margin: 0px 10px;
 }
+
 .campo-busca {
     display: flex;
     align-items: center;
     width: 79%;
 }
+
 .disseminadores {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -314,7 +385,7 @@ i.material-icons {
     margin-top: 30px;
 }
 
-.disseminador{
+.disseminador {
     background: #FFF;
     border: 1px solid #5A1B5A;
     height: 300px;
@@ -324,15 +395,18 @@ i.material-icons {
     align-items: center;
     text-align: center;
 }
-.user-img{
-   width: 35%;
-   border-radius: 100%;
+
+.user-img {
+    width: 35%;
+    border-radius: 100%;
 }
-.more{
+
+.more {
     display: flex;
     justify-content: center;
 }
-.more div a{
+
+.more div a {
     background: #863176;
     width: 200px;
     height: 30px;
@@ -342,41 +416,46 @@ i.material-icons {
     color: #fff;
     margin: 30px 0px 80px;
 }
-.disseminador h3{
+
+.disseminador h3 {
     font-size: 22px;
     color: #82008F;
     text-transform: uppercase;
 }
-.disseminador div p{
+
+.disseminador div p {
     margin-top: 25px;
     color: #5A1B5A;
 }
-.disseminador p{
+
+.disseminador p {
     margin: 0;
 }
+
+
 /* ---------- inicio do responsivo-------------- */
-@media screen and (max-width: 1065px){
-    .disseminadores{
+
+@media screen and (max-width: 1065px) {
+    .disseminadores {
         column-gap: 10px;
         row-gap: 10px;
     }
 }
 
-@media screen and (max-width: 980px){
-    .disseminadores{
+@media screen and (max-width: 980px) {
+    .disseminadores {
         row-gap: 5px;
         column-gap: 10px;
         grid-template-columns: auto auto auto;
     }
-    
-    .info1 .s1{
+    .info1 .s1 {
         font-size: 25px;
     }
-    .info1 .s2{
+    .info1 .s2 {
         font-size: 75px;
-        color:#ffa600;
+        color: #ffa600;
     }
-    .info1 .s3{
+    .info1 .s3 {
         font-size: 15px;
     }
     span.i2-titulo {
@@ -394,25 +473,25 @@ i.material-icons {
     span.hora {
         font-size: 12px;
     }
-    .cont-enc-antigos { 
+    .cont-enc-antigos {
         justify-content: space-between;
         margin: 25px 0px;
     }
-
-
 }
-@media screen and (max-width: 873px){
+
+@media screen and (max-width: 873px) {
     .parte1 {
         width: 86%;
     }
     .busca {
         width: 86%;
     }
-    .disseminadores{
+    .disseminadores {
         max-width: 86%;
     }
 }
-@media screen and (max-width: 730px){
+
+@media screen and (max-width: 730px) {
     .top1 {
         margin: 10px 0px 10px 0px;
         padding-right: 5px;
@@ -420,13 +499,13 @@ i.material-icons {
     .parte1 {
         width: 90%;
     }
-    .p1-bloco1{
+    .p1-bloco1 {
         margin-right: 1%;
     }
     .busca {
         width: 90%;
     }
-    .disseminadores{
+    .disseminadores {
         column-gap: 30px;
         row-gap: 30px;
         grid-template-columns: auto auto;
@@ -436,8 +515,9 @@ i.material-icons {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 650px){
-    .nam-arrow {   
+
+@media screen and (max-width: 650px) {
+    .nam-arrow {
         display: none;
     }
     #menu {
@@ -454,7 +534,7 @@ i.material-icons {
         font-size: 12px;
     }
     span.nomeD {
-            font-size: 14px;
+        font-size: 14px;
     }
     .separador1 {
         height: 20px;
@@ -470,8 +550,9 @@ i.material-icons {
         margin-right: 2px;
     }
 }
-@media screen and (max-width: 550px){
-    header{
+
+@media screen and (max-width: 550px) {
+    header {
         height: 100px;
     }
     .headerdv1 {
@@ -480,7 +561,7 @@ i.material-icons {
     .headerdv2 {
         margin: 5px;
     }
-    .parte1{
+    .parte1 {
         flex-wrap: wrap;
         display: contents;
     }
@@ -489,70 +570,74 @@ i.material-icons {
         margin-top: 0px;
     }
     .p1-bloco2 {
-            width: 100%;
-            margin-top: 0;
-        }
-        .scroll-encontros {
-            height: 100px;
-            overflow-x: scroll;            
-            display: flex;
-            justify-content: space-between;
-        }
-        .cont-enc-antigos {
-            margin: auto;
-            justify-content: revert;
-            padding: 0;
-            background-image: linear-gradient(90deg, #dfdfdf, transparent);
-        }
-        .scroll-encontros::-webkit-scrollbar {
-            height: 2px;
-          }
-          .setadireita {
-            visibility: hidden;
-            margin-right: 50px;
-            align-self: flex-end;
-        }
-          footer div {
-            text-align: center;
-        }
-        .separador1 {
-            display: block;
-            margin: 0px 35px 0px;
-            align-self: flex-end;
-        }
-        .enc-data {
-            margin-left: 10px;
-        }
-        .div-pergunta {
-            font-size: 14px;
-        }
-        .busca {
-            width: 100%;
-        }
-        .disseminadores {
-            max-width: 100%;
-        }
-        .card-destaque {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .info1 {
-            width: 50%;
-        }
-        .info2 {
-            width: 50%;
-        }
-        a.reuni {
-            padding: 5px;;
-        }
-        h1 {
-            font-size: 14px;
-        }
-        img.logo {
-            width: 50px;
-        }
-        img.diss-logo {
-            width: 106px;
-            height: 37px;
-        }
+        width: 100%;
+        margin-top: 0;
+    }
+    .scroll-encontros {
+        height: 100px;
+        overflow-x: scroll;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cont-enc-antigos {
+        margin: auto;
+        justify-content: revert;
+        padding: 0;
+        background-image: linear-gradient(90deg, #dfdfdf, transparent);
+    }
+    .scroll-encontros::-webkit-scrollbar {
+        height: 2px;
+    }
+    .setadireita {
+        visibility: hidden;
+        margin-right: 50px;
+        align-self: flex-end;
+    }
+    footer div {
+        text-align: center;
+    }
+    .separador1 {
+        display: block;
+        margin: 0px 35px 0px;
+        align-self: flex-end;
+    }
+    .enc-data {
+        margin-left: 10px;
+    }
+    .div-pergunta {
+        font-size: 14px;
+    }
+    .busca {
+        width: 100%;
+    }
+    .disseminadores {
+        max-width: 100%;
+    }
+    .card-destaque {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info1 {
+        width: 50%;
+    }
+    .info2 {
+        width: 50%;
+    }
+    a.reuni {
+        padding: 5px;
+        ;
+    }
+    h1 {
+        font-size: 14px;
+    }
+    img.logo {
+        width: 50px;
+    }
+    img.diss-logo {
+        width: 106px;
+        height: 37px;
+    }
 }
+
+
+/* fim do responsivo*/
