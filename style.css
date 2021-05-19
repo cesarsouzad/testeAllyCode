@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+    font-family: dinpro;
+    src: url(./font/D-DIN-PRO-600-SemiBold.otf);
+}
 
 /* height total para posicionamento do header e o footer  */
 
@@ -12,12 +15,10 @@ html,
 body {
     height: 100%;
     top: 0;
-    font-family: "DIN Pro Medium";
+    font-family: dinpro;
     max-width: 1920px;
     color: #4A4A4A;
 }
-
-@import url(//db.onlinewebfonts.com/c/5fd82f3bb8dcfc3ce611fab541b92241?family=DIN+Pro+Medium);
 
 /* cabeçalho da pagina */
 
@@ -32,6 +33,7 @@ header {
 }
 
 h1 {
+    font-family: "DIN pro";
     color: #82008f;
     font-size: initial;
     margin: auto;
